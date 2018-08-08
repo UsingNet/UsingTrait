@@ -1,0 +1,20 @@
+{
+    "name": "usingnet/usingtrait",
+    "description": "Application framework base on trait",
+    "type": "library",
+    "license": "LGPL-v3",
+    "authors": [
+        {
+            "name": "UsingTeam",
+            "email": "developer@usingnet.com"
+        }
+    ],
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.0.28",
+        "phalcon/cphalcon": ">=3.4.1"
+    },
+    "autoload": {
+        "psr-4": {"UsingTrait\\": "src/"}
+    }
+}
